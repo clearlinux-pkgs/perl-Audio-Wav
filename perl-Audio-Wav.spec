@@ -79,11 +79,11 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.28.0/Audio/Wav.pm
-/usr/lib/perl5/vendor_perl/5.28.0/Audio/Wav/Read.pm
-/usr/lib/perl5/vendor_perl/5.28.0/Audio/Wav/Tools.pm
-/usr/lib/perl5/vendor_perl/5.28.0/Audio/Wav/Write.pm
-/usr/lib/perl5/vendor_perl/5.28.0/Audio/Wav/Write/Header.pm
+/usr/lib/perl5/vendor_perl/5.28.1Audio/Wav.pm
+/usr/lib/perl5/vendor_perl/5.28.1Audio/Wav/Read.pm
+/usr/lib/perl5/vendor_perl/5.28.1Audio/Wav/Tools.pm
+/usr/lib/perl5/vendor_perl/5.28.1Audio/Wav/Write.pm
+/usr/lib/perl5/vendor_perl/5.28.1Audio/Wav/Write/Header.pm
 
 %files dev
 %defattr(-,root,root,-)
