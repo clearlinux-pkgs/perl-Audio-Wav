@@ -4,7 +4,7 @@
 #
 Name     : perl-Audio-Wav
 Version  : 0.14
-Release  : 7
+Release  : 8
 URL      : https://cpan.metacpan.org/authors/id/B/BR/BRIANSKI/Audio-Wav-0.14.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/B/BR/BRIANSKI/Audio-Wav-0.14.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/liba/libaudio-wav-perl/libaudio-wav-perl_0.14-2.debian.tar.xz
