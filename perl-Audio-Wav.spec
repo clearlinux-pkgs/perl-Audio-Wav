@@ -4,7 +4,7 @@
 #
 Name     : perl-Audio-Wav
 Version  : 0.14
-Release  : 13
+Release  : 14
 URL      : https://cpan.metacpan.org/authors/id/B/BR/BRIANSKI/Audio-Wav-0.14.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/B/BR/BRIANSKI/Audio-Wav-0.14.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/liba/libaudio-wav-perl/libaudio-wav-perl_0.14-2.debian.tar.xz
@@ -78,7 +78,7 @@ make TEST_VERBOSE=1 test
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/perl-Audio-Wav
 cp %{_builddir}/Audio-Wav-0.14/LICENSE %{buildroot}/usr/share/package-licenses/perl-Audio-Wav/18a0f2e0e480f900e610b2f16564eba70f8aede9
-cp %{_builddir}/Audio-Wav-0.14/deblicense/copyright %{buildroot}/usr/share/package-licenses/perl-Audio-Wav/b47851d8af6d6bcbaafd6032d3491eb65c95036c
+cp %{_builddir}/debian/copyright %{buildroot}/usr/share/package-licenses/perl-Audio-Wav/b47851d8af6d6bcbaafd6032d3491eb65c95036c
 if test -f Makefile.PL; then
 make pure_install PERL_INSTALL_ROOT=%{buildroot} INSTALLDIRS=vendor
 else
@@ -105,8 +105,8 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.1/Audio/Wav.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Audio/Wav/Read.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Audio/Wav/Tools.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Audio/Wav/Write.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Audio/Wav/Write/Header.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Audio/Wav.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Audio/Wav/Read.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Audio/Wav/Tools.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Audio/Wav/Write.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Audio/Wav/Write/Header.pm
