@@ -4,7 +4,7 @@
 #
 Name     : perl-Audio-Wav
 Version  : 0.14
-Release  : 22
+Release  : 23
 URL      : https://cpan.metacpan.org/authors/id/B/BR/BRIANSKI/Audio-Wav-0.14.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/B/BR/BRIANSKI/Audio-Wav-0.14.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/liba/libaudio-wav-perl/libaudio-wav-perl_0.14-2.debian.tar.xz
@@ -105,8 +105,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.34.0/Audio/Wav.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Audio/Wav/Read.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Audio/Wav/Tools.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Audio/Wav/Write.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Audio/Wav/Write/Header.pm
+/usr/lib/perl5/*
